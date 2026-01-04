@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"  <!-- اضافه کردن padding برای فاصله بین ویوها -->
+
+    <!-- این لایه عمودی برای قرار دادن یک RecyclerView برای هر ردیف از داده‌ها -->
+    >
+
+    <!-- RecyclerView برای نمایش لیست افقی از کاربران -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="horizontal" /> <!-- فعال کردن اسکرول افقی -->
+
+</LinearLayout>
